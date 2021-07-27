@@ -7,6 +7,7 @@ from django.conf import settings
 
 from products.models import Product
 
+
 class Order(models.Model):
     order_number = models.CharField(max_length=32, null=False, editable=False)
     full_name = models.CharField(max_length=50, null=False, blank=False)
