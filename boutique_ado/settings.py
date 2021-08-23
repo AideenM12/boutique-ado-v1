@@ -23,7 +23,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['boutique-ado-aideenm12.heroku.app', 'localhost']
+ALLOWED_HOSTS = ['boutique-ado-aideenm12.herokuapp.com', 'localhost']
 
 
 # Application definition
